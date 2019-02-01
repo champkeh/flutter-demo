@@ -5,10 +5,10 @@
 ## 贝塞尔曲线裁剪图片
 
 ### 效果：
-
-
+<div>
 <img src="/assets/images/wave-effect-on-ios.png" height="500" />
 <img src="/assets/images/wave-effect-on-android.png" height="500" />
+</div>
 
 使用到的组件和类:
 - ClipPath
