@@ -5,6 +5,7 @@
 ## 贝塞尔曲线裁剪图片
 
 效果：
+![/assets/images/effect1.png?row=true]
 
 使用到的组件和类:
 - ClipPath
