@@ -14,3 +14,30 @@
 - ClipPath
 - CustomClipper<Path>
 - Path
+
+
+## Text
+
+### 效果
+<div>
+<img src="/assets/screenshots/text-ios.png" height="500" />
+</div>
+
+```dart
+Text(
+     'Hello Flutter It is Awesome WOW',
+     textAlign: TextAlign.right,
+     textDirection: TextDirection.ltr,
+     overflow: TextOverflow.ellipsis,
+     maxLines: 2,
+     style: TextStyle(
+          color: Colors.black,
+          fontSize: 50,
+          fontWeight: FontWeight.w200,
+          letterSpacing: 2,
+          wordSpacing: 40,
+          decoration: TextDecoration.overline,
+          decorationStyle: TextDecorationStyle.wavy,
+     ),
+)
+```

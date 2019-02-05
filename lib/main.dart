@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_demo/wavy_image_mask/wavy_image_demo.dart';
 import 'package:flutter_demo/clean_ui_code/clean_ui_code_demo.dart';
+import 'package:flutter_demo/animation/easing_animation.dart';
+import 'package:flutter_demo/text/text_example.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: CleanUICodePage(),
+      home: TextExample(),
     );
   }
 }
