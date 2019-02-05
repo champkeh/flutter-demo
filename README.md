@@ -41,7 +41,7 @@
             </pre>
         </td>
         <td>
-            <img src="/assets/screenshots/text-ios.png" width=200 />
+            <img src="/assets/screenshots/text-ios.png" width='400' />
         </td>
     </tr>
 </table>
