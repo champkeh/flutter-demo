@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demo/wavy_image_mask/wavy_image_demo.dart';
-import 'package:flutter_demo/clean_ui_code/clean_ui_code_demo.dart';
-import 'package:flutter_demo/animation/easing_animation.dart';
-import 'package:flutter_demo/text/text_example.dart';
+import 'package:flutter_demo/animation/stagger_animation.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,7 +12,39 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: WavyImagePage(),
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Demo'),
+        ),
+        body: StaggerRoute(),
+      ),
     );
+  }
+}
+
+
+class HomePage extends StatefulWidget {
+  @override
+  _HomePageState createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
+
+class Home extends StatefulWidget {
+  @override
+  HomeState createState() {
+    return new HomeState();
+  }
+}
+
+class HomeState extends State<Home> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
   }
 }
